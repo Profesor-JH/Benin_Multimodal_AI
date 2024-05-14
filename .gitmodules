@@ -1,0 +1,3 @@
+[submodule "mmtafrica"]
+	path = mmtafrica
+	url = https://github.com/edaiofficial/mmtafrica.git
