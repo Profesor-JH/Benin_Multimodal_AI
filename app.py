@@ -1,5 +1,9 @@
 import subprocess
 import os
+
+
+
+import streamlit as st
 # Run the setup script to initialize submodules
 setup_script_path = './setup.sh'
 if os.path.exists(setup_script_path):
@@ -11,9 +15,6 @@ if os.path.exists(setup_script_path):
         st.write("Setup script ran successfully")
 else:
     st.write("Setup script not found")
-
-
-import streamlit as st
 import tempfile
 import os
 from pydub import AudioSegment
