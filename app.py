@@ -1,7 +1,16 @@
 import subprocess
+import os
 
 # Run the setup script to initialize submodules
-subprocess.call(['./setup.sh'])
+setup_script_path = './setup.sh'
+if os.path.exists(setup_script_path):
+    result = subprocess.run([setup_script_path], capture_output=True, text=True)
+    if result.returncode != 0:
+        print(f"Error running setup script: {result.stderr}")
+    else:
+        print("Setup script ran successfully")
+else:
+    print("Setup script not found")
 
 import streamlit as st
 import tempfile
