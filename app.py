@@ -1,3 +1,8 @@
+import subprocess
+
+# Run the setup script to initialize submodules
+subprocess.call(['./setup.sh'])
+
 import streamlit as st
 import tempfile
 import os
