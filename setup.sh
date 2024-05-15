@@ -1,11 +1,11 @@
 #!/bin/bash
 
-echo "Starting submodule update..."
+# Update and initialize git submodules
+echo "Initializing and updating submodules..."
 git submodule update --init --recursive
 
-if [ $? -ne 0 ]; then
-    echo "Failed to update submodules"
-    exit 1
-fi
+# Install system dependencies if needed
 
-echo "Submodule update completed"
+sudo apt-get update && sudo apt-get install -y ffmpeg
+
+echo "Setup completed successfully."

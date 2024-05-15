@@ -4,7 +4,7 @@ import os
 
 
 import streamlit as st
-# Run the setup script to initialize submodules
+# Ensure the setup script is run
 setup_script_path = './setup.sh'
 if os.path.exists(setup_script_path):
     result = subprocess.run([setup_script_path], capture_output=True, text=True, shell=True)
