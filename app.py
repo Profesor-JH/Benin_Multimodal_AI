@@ -1,17 +1,6 @@
 import subprocess
 import os
 
-# Run the setup script to initialize submodules
-setup_script_path = './setup.sh'
-if os.path.exists(setup_script_path):
-    result = subprocess.run([setup_script_path], capture_output=True, text=True)
-    if result.returncode != 0:
-        print(f"Error running setup script: {result.stderr}")
-    else:
-        print("Setup script ran successfully")
-else:
-    print("Setup script not found")
-
 import streamlit as st
 import tempfile
 import os
@@ -21,6 +10,19 @@ import Audio_Extractor as AE
 import video_duration_extractor as de
 import subtitle as su
 import merge as me
+
+# Run the setup script to initialize submodules
+setup_script_path = './setup.sh'
+if os.path.exists(setup_script_path):
+    result = subprocess.run([setup_script_path], capture_output=True, text=True, shell=True)
+    st.write(f"Setup script output: {result.stdout}")
+    if result.returncode != 0:
+        st.write(f"Error running setup script: {result.stderr}")
+    else:
+        st.write("Setup script ran successfully")
+else:
+    st.write("Setup script not found")
+
 
 
 
