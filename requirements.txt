@@ -31,8 +31,8 @@ dill==0.3.8
 exceptiongroup==1.2.1
 executing==2.0.1
 fastjsonschema==2.19.1
-ffmpeg==1.4
-ffmpeg-python==0.2.0
+ffmpeg
+ffmpeg-python
 filelock==3.14.0
 Flask==3.0.3
 flatbuffers==24.3.25
