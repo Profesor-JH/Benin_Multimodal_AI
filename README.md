@@ -4,19 +4,19 @@ Mi Kwabo is an application designed to break language barriers for tourism by pr
 # Key Technologies Used
 This project utilizes a variety of technologies and libraries to achieve its functionality. Below is a summary of the key technologies used:
 
-**Python:** The core programming language used for scripting and automation.
+**1. Python:** The core programming language used for scripting and automation.
 
-**Streamlit:** A powerful framework for creating interactive web applications using Python, used for building the user interface of the application.
+**2. Streamlit:** A powerful framework for creating interactive web applications using Python, used for building the user interface of the application.
 
-**PyDub:** A library for audio manipulation, used to extract and process audio from video files.
+**3. PyDub:** A library for audio manipulation, used to extract and process audio from video files.
 
-**MoviePy:** A library for video editing, used to extract video duration.
+**4. MoviePy:** A library for video editing, used to extract video duration.
 
-**Transformers:** A library from Hugging Face for natural language processing, used for speech recognition and translation.
+**5. Hugging Face Transformers:** A library from Hugging Face for natural language processing, used for speech recognition and translation.
 
-**Automatic Speech Recognition (ASR):** Implemented using a pre-trained model from the transformers library.
+    * Automatic Speech Recognition (ASR): Implemented using a pre-trained model from the transformers library.
 
-**Translation:** Utilizes a custom model for translating text between different languages.
+    * Translation: Utilizes a custom model from Hugging Face for translating text between different languages.
 
 **FFmpeg:** A powerful multimedia framework used for adding subtitles to video files.
 
