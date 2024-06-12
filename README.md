@@ -14,19 +14,19 @@ This project utilizes a variety of technologies and libraries to achieve its fun
 
 **5. Hugging Face Transformers:** A library from Hugging Face for natural language processing, used for speech recognition and translation.
 
-    * Automatic Speech Recognition (ASR): Implemented using a pre-trained model from the transformers library.
+*   Automatic Speech Recognition (ASR): Implemented using a pre-trained model from the transformers library.
 
-    * Translation: Utilizes a custom model from Hugging Face for translating text between different languages.
+*   Translation: Utilizes a custom model from Hugging Face for translating text between different languages.
 
-**FFmpeg:** A powerful multimedia framework used for adding subtitles to video files.
+**6. FFmpeg:** A powerful multimedia framework used for adding subtitles to video files.
 
-**Tempfile:** A Python library used to create temporary files and directories.
+**7. Tempfile:** A Python library used to create temporary files and directories.
 
-**YAML:** Used for configuration management (e.g., database configuration in config.yaml).
+**8. YAML:** Used for configuration management (e.g., database configuration in config.yaml).
 
-**Subprocess:** Used to run external commands and scripts from within Python.
+**9. Subprocess:** Used to run external commands and scripts from within Python.
 
-**OS:** A module that provides a way to use operating system dependent functionality, such as reading or writing to the file system.
+**10. OS:** A module that provides a way to use operating system dependent functionality, such as reading or writing to the file system.
 
 # Project Structure
 
