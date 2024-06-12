@@ -56,17 +56,17 @@ The Mi Kwabo application facilitates the extraction of audio from video files, p
 
 # Features
 
-**Audio Extraction:** Extract audio from uploaded video files.
+**1. Audio Extraction:** Extract audio from uploaded video files.
 
-**Speech Recognition:** Convert audio to text using a pre-trained speech recognition model.
+**2. Speech Recognition:** Convert audio to text using a pre-trained speech recognition model.
 
-**Text Translation:** Translate the recognized text into a target language.
+**3. Text Translation:** Translate the recognized text into a target language.
 
-**Subtitle Generation:** Create subtitles from the translated text.
+**4. Subtitle Generation:** Create subtitles from the translated text.
 
-**Video Merging:** Merge the generated subtitles back into the original video.
+**5. Video Merging:** Merge the generated subtitles back into the original video.
 
-**User Interface:** Interactive web interface using Streamlit.
+**6. User Interface:** Interactive web interface using Streamlit.
 
 # Installation
 1. Clone the repository:
