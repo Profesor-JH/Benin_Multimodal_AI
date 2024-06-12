@@ -1,16 +1,26 @@
 import subprocess
 import os
 
+
+
 import streamlit as st
 # Ensure the setup script is run
 setup_script_path = './setup.sh'
 if os.path.exists(setup_script_path):
     result = subprocess.run([setup_script_path], capture_output=True, text=True, shell=True)
+<<<<<<< HEAD
+    #st.write(f"Setup script output: {result.stdout}")
+    if result.returncode != 0:
+        st.write(f"Error running setup script: {result.stderr}")
+    else:
+        st.write("")
+=======
     st.write(f"Setup script output: {result.stdout}")
     if result.returncode != 0:
         st.write(f"Error running setup script: {result.stderr}")
     else:
         st.write("Setup script ran successfully")
+>>>>>>> f4a573c7477c47b57a8d60783869a18f225fbdbc
 else:
     st.write("Setup script not found")
 import tempfile

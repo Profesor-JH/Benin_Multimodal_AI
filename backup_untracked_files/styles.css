@@ -1,0 +1,14 @@
+/* Set page background color to a lighter shade of green */
+body {
+    background-color: #4caf50; /* Light green */
+}
+
+/* Set title font color to light red */
+.title-wrapper {
+    color: #ff8a80; /* Light red */
+}
+
+/* Set title font color to light yellow */
+.title-wrapper .title h1 {
+    color: #ffff8d; /* Light yellow */
+}
